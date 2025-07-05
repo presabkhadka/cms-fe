@@ -61,6 +61,11 @@ const handleLogout = () => {
         </a>
       </RouterLink>
     </div>
-    <button class="text-lg" @click="handleLogout">Logout</button>
+    <button
+      class="text-lg px-4 py-2 rounded-lg bg-green-500 text-white hover:cursor-pointer hover:bg-green-300"
+      @click="handleLogout"
+    >
+      Logout
+    </button>
   </div>
 </template>
