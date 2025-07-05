@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import Login from "../views/Login.vue";
 import Users from "../views/Users.vue";
 import Content from "../views/Content.vue";
+import Comment from "../views/Comment.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,6 +12,7 @@ const router = createRouter({
     { path: "/home", name: "home", component: Home },
     { path: "/users", name: "user", component: Users },
     { path: "/contents", name: "contents", component: Content },
+    { path: "/comments", name: "comments", component: Comment },
   ],
 });
 
